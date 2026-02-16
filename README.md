@@ -45,22 +45,3 @@ npm run build
 npm run preview
 ```
 
-Preview serves the built game (default at `http://127.0.0.1:4173` when launched with `--port 4173`).
-
-## Publish To GitHub + GitHub Pages
-This repo includes a GitHub Actions workflow at `.github/workflows/deploy-pages.yml`.
-
-1. Create an empty GitHub repository.
-2. Push this project:
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/<your-user>/<your-repo>.git
-git push -u origin main
-```
-3. In GitHub: `Settings -> Pages -> Source`, select `GitHub Actions`.
-4. Every push to `main` builds and deploys automatically.
-
-The workflow sets Vite `BASE_PATH` to `/<repo-name>/`, so it works correctly on GitHub Pages project URLs.
