@@ -2,7 +2,6 @@
 
 A fast, neon drenched, procedurally generated, endless room shooter built as a static web game.
 
-The included mood board is at `public/inspiration.png`.
 
 ## Expanded content snapshot
 - 9 weapons with distinct firing profiles (hitscan-like laser feel, rockets, rail pierce, spread fans, etc.)
